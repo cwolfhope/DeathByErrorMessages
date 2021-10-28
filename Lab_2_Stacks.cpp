@@ -23,7 +23,7 @@ main(){
 		std::cout << itemName << std::endl;
 		
 		while(getline(inputFile, lineData)){
-			std::cout << "W" << std::endl;
+			//std::cout << "W" << std::endl;
 			if(!bidStack->isEmpty()){
 				if(stoi(lineData) > bidStack->peek()){
 					stackItem = stoi(lineData);
