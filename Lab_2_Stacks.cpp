@@ -28,7 +28,8 @@ main(){
 				if(stoi(lineData) > bidStack->peek()){
 					stackItem = stoi(lineData);
 					stackItemPtr = &stackItem;
-					bidStack->push(stackItemPtr);
+					//bidStack->push(stackItemPtr);
+					bidStack->push(stackItem);
 				}
 			}
 			else if(bidStack->isEmpty()){
